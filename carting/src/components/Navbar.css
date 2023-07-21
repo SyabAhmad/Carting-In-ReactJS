@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(3, 167, 11);
+  color: white;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+@media screen and (max-width: 420px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
